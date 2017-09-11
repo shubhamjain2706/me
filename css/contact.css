@@ -1,0 +1,224 @@
+body{
+ padding: 2%;  
+}
+
+
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+
+.navbar {
+    min-height:20px;
+    background-color: white;
+    border:none;
+ 
+}
+
+
+nav {margin-top: 1px;
+    display: inline-block;
+    float:right; }
+
+
+    nav a {
+      line-height: 150px;
+      margin-left: 5px;
+        margin-right: 5px;
+        
+        min-width: 50px;
+      color:#cecece;
+        background-color:none;
+        padding:12px;
+        padding-left: 14px;
+        padding-right: 14px;
+        border: 0.5px solid;
+        border-color: #cecece;
+        text-decoration: none;
+        opacity: 0.7;
+      font-weight: 600;
+      font-size: 14px;
+        border-radius: 20px;
+        
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s; }
+
+
+      nav a:hover {
+        color: white  !important;
+          opacity: 1;
+          text-decoration: none;
+      background-color: #47c9e5;
+             border: 0.5px solid;
+        border-color: #47c9e5;
+      }
+ 
+nav a:active{
+ text-decoration: none;
+    color:#cecece;
+}
+
+nav a:visited{
+ text-decoration: none;
+    color:#cecece;
+}
+
+nav a:link{
+ text-decoration: none;
+    color:#cecece;
+}
+
+
+
+.container-fluid{
+ background-color:white;
+    height: 100%;
+}
+
+.homepage{
+ background: url(../img/get%20in%20touch.jpg) no-repeat center center;
+ background-size: cover;
+height: 600px;
+    
+}
+
+.homepage h1 {
+    padding-top: 23%;
+ font-family: "Montserrat";
+ background-position: 50% 50%;
+ text-align: center; 
+   background-attachment: fixed;
+ transition: all .3s ease-in-out;
+ font-weight: 200 !important;
+    font-size: 60px !important;
+ color: #fff;
+    
+ box-sizing: border-box;
+    
+}
+
+.homepage p {
+ 
+ background-position: 50% 50%;
+ text-align: center; 
+    position: relative;
+ transition: all .3s ease-in-out;
+    line-height: 1.7;
+ box-sizing: border-box;
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 18px;
+  
+     color: rgba(255,255,255,0.8)
+         
+}
+
+.getintouch{
+    
+    background-color:white;
+    position: relative;
+  height:700px;
+  line-height: 1.6;
+  z-index: 2;
+  color: #3d3536;
+    
+}
+
+.footer{
+    background-color:black;
+    position: relative;
+  height:300px;
+  line-height: 1.6;
+  z-index: 1;
+    color: #c4c4c4 !important;
+}
+
+
+/* Disable text select 
+---------------------------------------------------------*/
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+
+/*Back to top
+--------------------------------------------------------*/
+a.back-to-top {
+	display: none;
+	width: 60px;
+	height: 60px;
+	text-indent: -9999px;
+	position: fixed;
+	z-index: 999;
+	right: 40px;
+	bottom: 40px;
+	background: #fff url("../img/arrow.png") no-repeat center 43%;
+	border-radius: 100px;
+    transform: scale(.92,.92);
+    overflow: hidden;
+    box-shadow: 0 3px 13px 1px rgba(0,0,0,0.12);
+    border-width: 0 !important;
+}
+
+a:hover.back-to-top {
+	
+    background: url("../img/arrow-hover.png") no-repeat center 43%;
+    background-color: #47c9e5;
+    border: 2px solid #47c9e5;
+}
+
+
+.send {
+    display: inline-block;
+      color:#47c9e5;
+    width:70px;
+        background-color:white;
+        border: 2px solid;
+        border-color: #47c9e5;
+      font-weight: 700;
+      font-size: 18px;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s;}
+
+
+   input.send:hover  {
+        color: white;
+      background-color: #47c9e5;
+      }
+
+
+
+
+/*Selection
+--------------------------------------------------------*/
+::selection {
+    -webkit-background-color: #47c9e5 !important;
+    -moz-background-color: #47c9e5 !important;
+    -khtml-background-color: #47c9e5 !important;
+    -ms-background-color: #47c9e5 !important;
+    background-color: #47c9e5 !important;
+    -webkit-color: #fff;
+    -moz-color: #fff;
+    color: #fff;
+   
+}
