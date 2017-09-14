@@ -5,7 +5,7 @@ session_start();
 
 
 if(isset($_POST['submit'])){
-    $to = "shubham.jain2706@gmail.com";
+    $to = "jshubham@cs.stonybrook.edu";
     $from = $_POST['email'];
     $name = $_POST['name'];
     $subject = "Form submission";
