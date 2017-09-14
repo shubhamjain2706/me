@@ -694,7 +694,7 @@ nav a:link{
    background-attachment: fixed;
  transition: all .3s ease-in-out;
  font-weight: 200 !important;
-    font-size: 35px !important;
+    font-size: 30px !important;
  color: #fff;
     
  box-sizing: border-box;
@@ -787,7 +787,7 @@ nav a:link{
         .cd-scrolling-bg {
   position: relative;
   min-height: 100%;
-            height:890px;
+            height:1100px;
   padding: 4em 0;
   line-height: 1.6;
   
