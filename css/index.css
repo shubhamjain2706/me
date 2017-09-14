@@ -393,6 +393,18 @@ a:hover.back-to-top {
    
 }
 
+::-moz-selection {
+    -webkit-background-color: #47c9e5 !important;
+    -moz-background-color: #47c9e5 !important;
+    -khtml-background-color: #47c9e5 !important;
+    -ms-background-color: #47c9e5 !important;
+    background-color: #47c9e5 !important;
+    -webkit-color: #fff;
+    -moz-color: #fff;
+    color: #fff;
+   
+}
+
 @media all and (max-width: 1000px)  
     {
         .homepage h1 {
