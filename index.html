@@ -199,7 +199,7 @@ $(window).scroll(function() {
 });
 
 $('a.back-to-top, a.simple-back-to-top').click(function() {
-	$('body').animate({
+	$("html, body").animate({
 		scrollTop: 0
 	}, 'slow');
 	return false;
